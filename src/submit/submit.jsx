@@ -5,8 +5,6 @@ const path      = require('path')
 const immutable = require('immutable')
 const {Router, Route, Link, hashHistory} = require('react-router')
 
-const TitleBar      = require('../title_bar')
-
 const Step1 = require('./step1')
 const Step2 = require('./step2')
 const Step3 = require('./step3')
